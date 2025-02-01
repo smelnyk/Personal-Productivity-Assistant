@@ -3,6 +3,10 @@
     <img height="600px" src="https://github.com/smelnyk/Personal-Productivity-Assistant/blob/main/img/img2.png" alt="Personal Productivity Assistant Popup">
 </div>
 
+[MacOS Download](https://github.com/smelnyk/Personal-Productivity-Assistant/blob/main/downloads/MacOS_Personal-Productivity-Assistant.zip)
+
+--
+
 # Personal Productivity Assistant  
 **Personal Productivity Assistant** is a revolutionary open-source application designed to enhance individual focus and productivity. By utilizing locally hosted Ollama AI models, it provides detailed insights and analytics on work habits. The goal is to empower users to achieve optimal efficiency and performance in their daily tasks.  
 
