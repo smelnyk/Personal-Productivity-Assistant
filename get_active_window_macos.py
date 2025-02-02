@@ -1,12 +1,20 @@
+"""
+This module provides functionality to get the currently active window's owner name and title on macOS.
+
+Classes:
+    AppListener: A class to listen for active window changes and retrieve the active window's details.
+
+Functions:
+    get_active_window: Get the currently active window's owner name and title.
+"""
+
 import objc
-from AppKit import NSWorkspaceDidWakeNotification
 from Foundation import NSObject, NSNotificationCenter
 from Quartz import (
     CGWindowListCopyWindowInfo,
     kCGWindowListOptionOnScreenOnly,
     kCGNullWindowID
 )
-import subprocess
 
 
 class AppListener(NSObject):

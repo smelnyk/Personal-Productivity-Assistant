@@ -1,0 +1,7 @@
+PyQt5~=5.15.11
+py2app==0.28.8
+setuptools==70.3.0
+ollama==0.4.7
+pywin32==301
+psutil==5.8.0
+pyinstaller==4.5.1

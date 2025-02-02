@@ -163,18 +163,28 @@ class SystemTrayApp:
         Open productive.txt file.
         """
         logging.info("Opening productive.txt file")
+        if platform.system() == "Darwin":
+            app_name = "open"
+        else:
+            app_name = "start"
+
         subprocess.run([
-            "open", os.path.join(config.LOG_FOLDER_BASE, config.PRODUCTIVE_FILE)
-        ], text=True)
+            app_name, os.path.join(config.LOG_FOLDER_BASE, config.PRODUCTIVE_FILE)
+        ], shell=True)
 
     def open_unproductive_action(self):
         """
         Open unproductive.txt file.
         """
         logging.info("Opening unproductive.txt file")
+        if platform.system() == "Darwin":
+            app_name = "open"
+        else:
+            app_name = "start"
+
         subprocess.run([
-            "open", os.path.join(config.LOG_FOLDER_BASE, config.UNPRODUCTIVE_FILE)
-        ], text=True)
+            app_name, os.path.join(config.LOG_FOLDER_BASE, config.UNPRODUCTIVE_FILE)
+        ], shell=True)
 
     def pull_ollama_model(self):
         """

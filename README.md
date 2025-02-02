@@ -4,7 +4,7 @@
 </div>
 
 <div align="center">
-    [MacOS Download](https://github.com/smelnyk/Personal-Productivity-Assistant/raw/refs/heads/main/downloads/MacOS_Personal-Productivity-Assistant.zip?download=true)
+    [MacOS Download]("https://github.com/smelnyk/Personal-Productivity-Assistant/raw/refs/heads/main/downloads/MacOS_Personal-Productivity-Assistant.zip?download=true")
 </div>
 
 ---
