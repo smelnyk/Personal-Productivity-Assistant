@@ -54,7 +54,7 @@ def file_writer(get_active_window_func):
 
     while True:
         try:
-            current_active_app, current_window_title = get_active_window_func()
+            current_active_app = get_active_window_func()
             if not current_active_app:
                 current_active_app = "No active app"
 

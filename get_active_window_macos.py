@@ -39,6 +39,5 @@ class AppListener(NSObject):
         for window in window_list:
             if window.get('kCGWindowLayer') == 0:  # Standard windows have layer 0
                 owner_name = window.get('kCGWindowOwnerName', 'Unknown')
-                window_title = window.get('kCGWindowName', 'Unknown')
-                return owner_name, window_title
+                return owner_name
         return None, None
