@@ -1,5 +1,6 @@
 /.locks/
 /models--*/
-/build/*
-/dist/*
 /build/
+/dist/
+/build/
+/__pycache__/

@@ -7,7 +7,7 @@ PRODUCTIVE_FILE = "config/productive.txt"
 LOG_FOLDER_BASE = os.path.expanduser("~/Personal-Productivity-Assistant")
 OLLAMA_MODEL = "deepseek-r1:14b"
 BROWSERS = [
-    "Google Chrome", "Firefox", "Safari", "Microsoft Edge", "Opera", "Brave", "Vivaldi", "Tor Browser", "Maxthon",
+    "Google Chrome", "chrome", "Firefox", "Safari", "Microsoft Edge", "Opera", "Brave", "Vivaldi", "Tor Browser", "Maxthon",
     "UC Browser", "Puffin Browser", "Dolphin Browser", "Samsung Internet", "Yandex Browser", "Epic Privacy Browser",
     "Comodo Dragon", "Falkon", "Midori", "SeaMonkey", "Lynx", "Konqueror", "Qutebrowser", "Waterfox", "Slimjet",
     "SRWare Iron", "Torch Browser", "Beaker Browser", "Otter Browser", "Basilisk", "Dooble", "Avast Secure Browser",
@@ -21,7 +21,7 @@ BROWSERS = [
     "Wavebox", "Cliqz", "Avira Scout", "Dooble", "Fennec", "Hermes Browser", "Iridium Browser", "JioPages", "Kinza",
     "LibreWolf", "Naked Browser", "NetFront", "Nokia Xpress", "OmniWeb", "Orweb", "Sailfish Browser", "Sputnik Browser",
     "Sunrise Browser", "Tencent Traveler", "Tenta Browser", "UC Browser Mini", "xB Browser", "Yolo Browser",
-    "Zetakey Browser", "Zvu"
+    "Zetakey Browser", "Zvu", "msedge"
 ]
 PRODUCTIVE = [
     "slack", "finder", "terminal", "outlook", "word", "excel", "powerpoint", "pages", "numbers", "keynote",
@@ -29,7 +29,7 @@ PRODUCTIVE = [
     "activity monitor", "mail", "calendar", "sublimetext", "visual studio code", "atom", "xcode", "sublime merge",
     "github desktop", "sourcetree", "transmit", "parallels desktop", "vmware fusion", "virtualbox", "docker",
     "iterm2", "hyper", "zoc", "sequel", "tableplus", "dbeaver", "sequel ace", "mamp", "xampp", "docker desktop",
-    "pycharm", "github", "chatgpt", "python"
+    "pycharm", "github", "chatgpt", "python", "windowsterminal"
 ]
 UNPRODUCTIVE = [
     "facebook", "twitter", "instagram", "snapchat", "tiktok", "linkedin", "reddit", "pinterest", "whatsapp",

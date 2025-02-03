@@ -31,6 +31,20 @@ def get_chrome_url():
         result = subprocess.run(['osascript', '-e', script], capture_output=True, text=True)
         return result.stdout.strip()
 
+    if platform.system() == 'Windows':
+        from pywinauto import Application
+
+        # Connect to the Chrome application
+        app = Application(backend='uia')
+        app.connect(title_re=".*Chrome.*")
+
+        # Access the top window of Chrome
+        dlg = app.top_window()
+
+        # Retrieve the value from the address bar
+        return dlg.child_window(title="Address and search bar", control_type="Edit").get_value()
+
+
 def get_safari_url():
     """
     Get the current URL from the active tab in Safari.
@@ -74,6 +88,19 @@ def get_edge_url():
         """
         result = subprocess.run(['osascript', '-e', script], capture_output=True, text=True)
         return result.stdout.strip()
+
+    if platform.system() == 'Windows':
+        from pywinauto import Application
+
+        # Connect to the Chrome application
+        app = Application(backend='uia')
+        app.connect(title_re=".*Edge.*")
+
+        # Access the top window of Chrome
+        dlg = app.top_window()
+
+        # Retrieve the value from the address bar
+        return dlg.child_window(title="Address and search bar", control_type="Edit").get_value()
 
 def extract_domain(url):
     """
