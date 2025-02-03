@@ -96,11 +96,11 @@ def get_edge_url():
         app = Application(backend='uia')
         app.connect(title_re=".*Edge.*")
 
-        # Access the top window of Chrome
+        # Access the top window of Esge
         dlg = app.top_window()
 
         # Retrieve the value from the address bar
-        return dlg.child_window(title="Address and search bar", control_type="Edit").get_value()
+        return dlg.child_window(control_type="Edit", found_index=0).get_value()
 
 def extract_domain(url):
     """
@@ -112,6 +112,9 @@ def extract_domain(url):
     Returns:
         str: The domain of the URL, or None if an error occurs.
     """
+    if not url.startswith(("http://", "https://")):
+        url = f"http://{url}"
+
     try:
         parsed_url = urlparse(url)
         domain = parsed_url.netloc

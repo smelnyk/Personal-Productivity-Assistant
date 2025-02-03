@@ -65,7 +65,8 @@ def file_writer(get_active_window_func):
                     "Google Chrome": get_chrome_url,
                     "chrome": get_chrome_url,
                     "Safari": get_safari_url,
-                    "Microsoft Edge": get_edge_url
+                    "Microsoft Edge": get_edge_url,
+                    "msedge": get_edge_url
                 }.get(current_active_app, lambda: None)()
 
                 if current_browser_url:
