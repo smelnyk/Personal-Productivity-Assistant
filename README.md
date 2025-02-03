@@ -51,7 +51,9 @@ Unlike many similar applications that require paid subscriptions and transmit de
 3. **Create a Virtual Environment**: Run `$ python3 -m venv .venv` to create a virtual environment, then activate it with `$ source .venv/bin/activate`.  
 4. **Install Dependencies**: Install the required packages with `$ pip install -r requirements.txt`.  
 5. **Run the Application**: Start the application with `$ python Personal-Productivity-Assistant.py`.  
-6. **Begin Usage**: Work as usual. After an hour, you can generate a productivity report from the system tray menu.  
+6. **Begin Usage**: Work as usual. After an hour, you can generate a productivity report from the system tray menu.
+7. `python -m PyInstaller --onefile --noconsole --icon=app_icon.ico .\Personal-Productivity-Assistant.py` - build the executable on Windows
+8. `python setup.py py2app` - build the executable on MacOS
 
 ---
 
