@@ -3,9 +3,8 @@
     <img height="600px" src="https://github.com/smelnyk/Personal-Productivity-Assistant/blob/main/img/img2.png" alt="Personal Productivity Assistant Popup">
 </div>
 
-<div align="center">
-    [MacOS Download]("https://github.com/smelnyk/Personal-Productivity-Assistant/raw/refs/heads/main/downloads/MacOS_Personal-Productivity-Assistant.zip?download=true")
-</div>
+- MacOS Download https://github.com/smelnyk/Personal-Productivity-Assistant/raw/refs/heads/main/downloads/MacOS_Personal-Productivity-Assistant.zip
+- Windows Download https://github.com/smelnyk/Personal-Productivity-Assistant/raw/refs/heads/main/downloads/Personal-Productivity-Assistant.exe
 
 ---
 
