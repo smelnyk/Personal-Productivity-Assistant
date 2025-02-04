@@ -3,7 +3,7 @@
     <img height="600px" src="https://github.com/smelnyk/Personal-Productivity-Assistant/blob/main/img/img2.png" alt="Personal Productivity Assistant Popup">
 </div>
 
-- MacOS Download https://github.com/smelnyk/Personal-Productivity-Assistant/raw/refs/heads/main/downloads/MacOS_Personal-Productivity-Assistant.zip
+- MacOS Download https://github.com/smelnyk/Personal-Productivity-Assistant/raw/refs/heads/main/downloads/Personal-Productivity-Assistant.zip
 - Windows Download https://github.com/smelnyk/Personal-Productivity-Assistant/raw/refs/heads/main/downloads/Personal-Productivity-Assistant.exe
 
 ---
@@ -41,7 +41,7 @@ Unlike many similar applications that require paid subscriptions and transmit de
 
 ### Standard Installation  
 1. **Download the Application**: Obtain the latest release package for your operating system from the GitHub repository.  
-2. **Install Ollama**: Download and install Ollama from its official website.  
+2. **Install Ollama**: Download and install Ollama from its [official website](https://ollama.com/).  
 3. **Run the Application**: Look for a black circle in the system tray upon launching. During the first run, the application will download the AI model from Ollama (9 GB). Once the download is complete, you can generate productivity reports.  
 
 ### Installation from Source  

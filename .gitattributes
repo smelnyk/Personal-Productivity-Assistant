@@ -1,1 +1,2 @@
 downloads/MacOS_Personal-Productivity-Assistant.zip filter=lfs diff=lfs merge=lfs -text
+downloads/Personal-Productivity-Assistant.zip filter=lfs diff=lfs merge=lfs -text
